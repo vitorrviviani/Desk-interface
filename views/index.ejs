@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src='/javascripts/parser.js'></script>
+  
+</head>
+<body>
+  <div id='side'>
+    <h1 id='line'>
+      <%= title %>
+    </h1>
+    <h1 id='show'></h2>
+    <button onclick='floorChange2()'>Floor 2</button><br><br>
+    <button onclick='floorChange5()'>Floor 5</button><br><br>
+    <button onclick='floorChange6()'>Floor 6</button><br><br>
+    <p id='table'></p>
+  </div>
+
+  <img id='floorPlan' src='/images/floor5.png' alt='floor plan' width='700' height='700'>
+</body>
+
+</html>
